@@ -9,4 +9,7 @@ git restore(local):
     case 3: "deleted filename" - restore deleted file from the last committed version.
 
 git revert(remote):
-    case 1: 
+    "HEAD or last commit hash" - update working directory as lase commit in remote
+
+git rebase:
+    "branch name" - merge branch without new commit rather than rewrite history
