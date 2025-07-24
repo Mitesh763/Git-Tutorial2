@@ -4,6 +4,9 @@ git reset(local):
     case 3: --hard "HEAD~1 or last commit hash" - make same as last commit or HEAD
 
 git restore(local):
-    case 1: --staged "filename" - moved specified file into untracked area(unstaging) from staging area
+    case 1: --staged "filename" - moved specified file into unstaging area from staging area
     case 2: --source "hash code of last commit" "filename" - update working directoty aspecified last commit hash
     case 3: "deleted filename" - restore deleted file from the last committed version.
+
+git revert(remote):
+    case 1: 
