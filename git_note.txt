@@ -1,0 +1,9 @@
+git reset(local):
+    case 1: --mixed(default) "HEAD~1 or last commit hash" - 
+    case 2: --soft - 
+    case 3: --hard - 
+
+git restore(local):
+    case 1: --staged "filename" - moved specified file into untracked area(unstaging) from staging area
+    case 2: --source "hash code of last commit" "filename" - update working directoty aspecified last commit hash
+    case 3: "deleted filename" - restore deleted file from the last committed version.
