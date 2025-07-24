@@ -1,7 +1,7 @@
 git reset(local):
-    case 1: --mixed(default) "HEAD~1 or last commit hash" - 
-    case 2: --soft - 
-    case 3: --hard - 
+    case 1: --mixed(default) "HEAD~1 or last commit hash" - moving all modification into working directory from staging area/committed area not update in file(code)
+    case 2: --soft "HEAD~1 or last commit hash" - moving all modification into staging area from staging area/committed area not update in file(code)
+    case 3: --hard "HEAD~1 or last commit hash" - make same as last commit or HEAD
 
 git restore(local):
     case 1: --staged "filename" - moved specified file into untracked area(unstaging) from staging area
