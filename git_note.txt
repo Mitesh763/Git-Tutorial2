@@ -3,6 +3,7 @@ git reset(local):
     case 2: --soft "HEAD~1 or last commit hash" - moving all modification into staging area from staging area/committed area not update in file(code)
     case 3: --hard "HEAD~1 or last commit hash" - make same as last commit or HEAD
 
+
 git restore(local):
     case 1: --staged "filename" - moved specified file into unstaging area from staging area
     case 2: --source "hash code of last commit" "filename" - update working directoty aspecified last commit hash
