@@ -6,11 +6,11 @@ git reset(local):
 
 git restore(local):
     case 1: --staged "filename" - moved specified file into unstaging area from staging area
-    case 2: --source "hash code of last commit" "filename" - update working directoty aspecified last commit hash
+    case 2: --source "hash code of last commit" "filename" - update working directoty as specified last commit hash
     case 3: "deleted filename" - restore deleted file from the last committed version.
 
 git revert(remote):
-    "HEAD or last commit hash" - update working directory as lase commit in remote
+    "HEAD or last commit hash" - update working directory as last commit in remote
 
 git rebase:
     "branch name" - merge branch without new commit rather than rewrite history
